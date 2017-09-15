@@ -9,4 +9,4 @@ pipelines:
   default:
     - step:
         script:
-          - echo "Seja bem vindo Eduardo e Wendreo"
+          - echo "Seja bem vindo Eduardo"
