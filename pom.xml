@@ -81,6 +81,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
+				<warSourceDirectory>src/main/webapp</warSourceDirectory>
 				<version>2.6</version>
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
@@ -91,7 +92,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-dependency-plugin</artifactId>
 				
-				<warSourceDirectory>src/main/webapp</warSourceDirectory>
+				
 				
 				
 				<version>2.4</version>
